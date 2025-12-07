@@ -1,29 +1,23 @@
 
-// Marka uu yahay Synchronous 
+function soohelXobgta(){
+    return new Promise ((resolve, reject)=>{
 
-function blocking(){
-    alert("U gudub dalabka xiga")
-    return {
-        Name: "xongor",
-        City: "abudwak"
-    }
+        setTimeout(()=>{
+            const natijo = true
+            if(natijo){
+                resolve({
+                    ID: 20, Name: " xongor"
+                })
+            }else{
+                reject("cilad ayaa jirta ")
+
+            }
+        })
+
+    }, 2000)
 }
-const usr = blocking()
- console.log( usr)
- console.log( " waa Loo gud bay dalabkii xigay ")
 
+soohelXobgta()
+            .then(xogta => console.log(xogta))
+            .catch(err => console.log(err))
 
-
- // Marka uu yahay Asynchronous 
- function nonBlocking(kabalyeeri){
-    setTimeout(()=>{
-        const dalabka = {
-            cunto: "baasto",
-            Cabitaan: "faanto"
-        }
-        kabalyeeri(dalabka)
-    },2000)
- }s
- nonBlocking( function(dalabka){
-    console.log(dalabka)
- })
