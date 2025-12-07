@@ -1,23 +1,24 @@
-
-function soohelXobgta(){
-    return new Promise ((resolve, reject)=>{
-
-        setTimeout(()=>{
-            const natijo = true
-            if(natijo){
-                resolve({
-                    ID: 20, Name: " xongor"
-                })
-            }else{
-                reject("cilad ayaa jirta ")
-
-            }
-        })
-
-    }, 2000)
+function soohelXobgta() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const natiijo = true;
+      if (natiijo) {
+        resolve({
+          id: 30,
+          name: "Xongor",
+        });
+      } else {
+        reject(" Cilad ayaa jirta");
+      }
+    }, 3000);
+  });
 }
-
-soohelXobgta()
-            .then(xogta => console.log(xogta))
-            .catch(err => console.log(err))
-
+async function soobandhigXogta() {
+  try {
+    const user = await soohelXobgta();
+    console.log(user);
+  } catch (Cilad) {
+    console.log(Cilad);
+  }
+}
+soobandhigXogta();
