@@ -7,3 +7,5 @@
 [Exercise 29](<Exercise 29>)
 
 [Exercise 30](<Exercise 30>)
+
+[Exercise 31](<Exercise 31>)
