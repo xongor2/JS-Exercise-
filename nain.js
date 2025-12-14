@@ -2,11 +2,33 @@
 
 
 
-async function fetchData() {
-    console.log("starting Fatching Data")
-    const Response = await  fetch('data.JSON')
-    const data = await Response.json()
-    console.log(data)
-}
+// async function fetchData() {
+//     console.log("starting Fatching Data")
+//     const Response = await  fetch('data.JSON')
+//     const data = await Response.json()
+//     console.log(data)
+// }
 
-fetchData()
+// fetchData()
+  
+
+ function operate(a,b, boss ){
+    return boss (a,b)
+ }
+ function iskuDar(a,b){
+    return a+b
+ }
+ function kalaJar(a,b){
+    return a-b
+ }
+ function iskuDhufasho(a,b){
+    return a*b
+ }
+ function IskuQaybin(a,b){
+    return a/b
+ }
+
+ console.log("Wadarta 5+3 waa:", operate(5,3, iskuDar))
+ console.log("10-6 =:", operate(10,6, kalaJar))
+ console.log("5*5 =:", operate(5,5, iskuDhufasho))
+ console.log("20/2 =:", operate(20,2, IskuQaybin))
