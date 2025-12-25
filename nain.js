@@ -34,23 +34,30 @@
 //  console.log("20/2 =:", operate(20,2, IskuQaybin))
 
 
-async function fetchData() {
+// async function fetchData() {
 
-    try {
+//     try {
         
-        let Response = await fetch('https://jsonplaceholder.typicode.com/users')
-            if (!Response.ok ){
-                throw new error (`cilad ayaa jirta, ${Response.status}`)
-            }
-            let data = await Response.json()
-            console.log (data)
+//         let Response = await fetch('https://jsonplaceholder.typicode.com/users')
+//             if (!Response.ok ){
+//                 throw new error (`cilad ayaa jirta, ${Response.status}`)
+//             }
+//             let data = await Response.json()
+//             console.log (data)
 
 
 
-    } catch (error) {
-        console.log(error)
-    }
+//     } catch (error) {
+//         console.log(error)
+//     }
 
     
-}
-fetchData()
+// }
+// fetchData()
+
+const salaan = document.querySelector('#salaan')
+console.log(salaan.innerHTML)
+
+
+
+

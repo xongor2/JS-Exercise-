@@ -9,3 +9,5 @@
 [Exercise 30](<Exercise 30>)
 
 [Exercise 31](<Exercise 31>)
+
+[Exercise 32](<Exercise 32>)
