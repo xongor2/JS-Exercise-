@@ -1,0 +1,1 @@
+![Exercise 36](<Exercise 36.png>)

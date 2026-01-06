@@ -17,3 +17,6 @@
 [Exercise 34](<Exercise 34>)
 
 [Exercise 35](<Erexcise 35>)
+
+
+[Exercise 36](<Exercise 36>)
